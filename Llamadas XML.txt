@@ -1,0 +1,40 @@
+Postman
+
+-----------Operaciones-----------
+<?xml version='1.0' encoding="UTF-8"?>
+<methodCall>
+	<methodName>Methods.operaciones</methodName>
+	<params>
+		<param>
+            <value><double>1.0</double></value>
+            <value><double>2.0</double></value>
+            <value><double>3.0</double></value>
+            <value><double>4.0</double></value>
+        </param>
+	</params>
+</methodCall>
+-----------Sumas-----------
+<?xml version='1.0' encoding="UTF-8"?>
+<methodCall>
+	<methodName>Methods.sumar</methodName>
+	<params>
+		<param>
+            <value><double>10.0</double></value>
+            <value><double>20.0</double></value>
+        </param>
+	</params>
+</methodCall>
+-----------Ordenar-----------
+<?xml version='1.0' encoding="UTF-8"?>
+<methodCall>
+	<methodName>Methods.ordenar</methodName>
+	<params>
+		<param>
+            <value><double>60.0</double></value>
+            <value><double>20.0</double></value>
+            <value><double>10.0</double></value>
+            <value><double>2.0</double></value>
+            <value><double>100.0</double></value>
+        </param>
+	</params>
+</methodCall>
